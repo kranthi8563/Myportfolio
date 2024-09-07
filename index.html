@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/644b440848.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header" id="Home">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            <div class="header_text">
+
+                <h1>Hi, I'm <span>Kranthi Kumar Reddy </span><br>Kaithi</h1>
+            </div>
+        </div>
+    </div>
+
+<!-------------------About------------------------->
+
+    <div id="About">
+        <div class="container">
+          <div class="row">
+            <div class="about_col_1">
+                <img src="images/user.png" alt="user">
+            </div>
+            <div class="about_col_2">
+                <h1 class="sub_title">About <span>Me</span></h1>
+                <p> I am a recent Computer Science and Engineering graduate with a strong foundation in problem-solving and innovative thinking. Skilled in software development, 
+                    data structures, and algorithms, with hands-on experience in Python, Java, and Web Technologies. Eager to contribute to impactful projects in a dynamic team environment.</p>
+                <div class="tab_titles">
+                    <p class="tab_links active_link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab_links" onclick="opentab('Education')">Education</p>
+                    <p class="tab_links" onclick="opentab('Hobbies')">Hobbies</p>
+                </div>
+                <div class="tab_contents active_tab" id="Skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>java Programming</span><br>Building Android apps</li>
+                        <li><span>Python Programming</span><br>Building Ml/Ds projects</li>
+
+                    </ul>
+                </div>
+                <div class="tab_contents" id="Education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B.tech in Computer Science and Engineering,Mrcet<br><span>Cgpa: 8.50</span></li>
+                        <li><span>2018-2020</span><br>Intermediate in MPC,Narayana Junior College<br><span>Percentage: 97%</span></li>
+                        <li><span>2017-2018</span><br>SSC,Lords Talent High School<br><span>Cgpa: 9.7</span></li>
+                       
+                        
+                    </ul>
+                </div>
+                <div class="tab_contents" id="Hobbies">
+                    <ul>
+                        <li><span>Learing Technologies</span></li>
+                        <li><span>Reading Books</span></li>
+                        <li><span>Playing Cricket</span></li>
+                        
+                    </ul>
+                </div>
+            </div>
+          </div>  
+        </div>
+    </div>
+
+    <!--------------------Projects-------------------->
+
+
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub_title">My Services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Placeat, voluptatibus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Placeat, voluptatibus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>ML Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Placeat, voluptatibus.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------Portfolio------------------->
+
+    <div id="Portfolio">
+        <div class="container">
+            <div class="sub_title">My Work</div>
+            <div class="work_list">
+                <div class="work">
+                    <img src="images/work-1.jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>FoodtoYourTable</h3>
+                        <p>The app that makes to help in 
+                            ordering food and reserving tables in restuarants.</p>
+                        <a href="https://github.com/kranthi8563/FoodtoYourTable"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Connect2Hospitals</h3>
+                        <p>The Website which helps the patients to book their
+                             consultation with doctor at home and get cured at home.</p>
+                        <a href="https://github.com/kranthi8563/Connect2Hospitals"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>NHIDS</h3>
+                        <p>Network and Host Intrusion Detection system using deep neural networks where 
+                            it detects any intrusions that are occured to a system or its network</p>
+                        <a href="https://github.com/kranthi8563/NHIDS"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/kranthi8563?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!--------Contact-------->
+    <div class="contact" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub_title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>     kranthireddy603@gmail.com</p>
+                    <p><i class="ri-phone-line"></i>    1234567890</p>
+                    <div class="social_icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact_Right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Write Your Message Here"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Kranthi Kumar Reddy Kaithi</p>
+        </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzPWz172-WD3aZwRtcOOoa-Sln4mtr5zThAj5n2IkhVYOKeqeJDTcByHTMTDxgd61Uc/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = 'Message sent successfully'
+        setTimeout(function(){
+            msg.innerHTML = '';
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+</body>
+</html>
